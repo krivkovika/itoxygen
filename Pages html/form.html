@@ -1,0 +1,202 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Список</title>
+</head>
+<body>
+<form>
+    <p><select name="select" size="1">
+        <option selected value="s1">Вариант №1</option>
+        <option value="s2">Вариант №2</option>
+        <option value="s3">Вариант №3</option>
+        <option value="s4">Вариант №4</option>
+        <option value="s5">Вариант №5</option>
+    </select>
+        <input type="submit" value="Отправить"></p>
+</form>
+</body>
+</html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Список</title>
+</head>
+<body>
+<form>
+    <p><select name="select" size="5">
+        <option selected value="s1">Вариант №1</option>
+        <option value="s2">Вариант №2</option>
+        <option value="s3">Вариант №3</option>
+        <option value="s4">Вариант №4</option>
+        <option value="s5">Вариант №5</option>
+    </select>
+        <input type="submit" value="Отправить"></p>
+</form>
+</body>
+</html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Ввод числа</title>
+</head>
+<body>
+<form action="handler.php">
+    <p>Укажите цифру:</p>
+        <p><input type="number" name="№" value="4" min="1" max="10" step="1"></p>
+</form>
+</body>
+</html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Список</title>
+</head>
+<body>
+<form>
+    <p><select name="select" size="1" multiple>
+        <option selected value="s1">Вариант №1</option>
+        <option value="s2">Вариант №2</option>
+        <option value="s3">Вариант №3</option>
+        <option value="s4">Вариант №4</option>
+        <option value="s5">Вариант №5</option>
+    </select>
+        </p>
+</form>
+</body>
+</html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Ползунок</title>
+	<script>
+	function sizePic() {
+	size = document.getElementById("size").value;
+	img = document.getElementById("pic");
+	img.width = 60+20*size;
+	}
+	</script>
+</head>
+<body>
+    <p>Размер рисунка: <input type="range" min="1" max="5" id="size"
+	oninput="sizePic()" value="3"></p>
+</body>
+</html>
+
+
+
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Кнопка</title>
+</head>
+<body>
+<form>
+        <input type="submit" value="Очистить"></p>
+</form>
+</body>
+</html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Поиск</title>
+</head>
+<body>
+<form>
+        <p><input type="search" name="q" placeholder="Поиск по сайту">
+		<input type="submit" value="Найти">
+		</p>
+</form>
+</body>
+</html>
+
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Цвет</title>
+  </head>
+<body>
+<form action="handler.php">
+<p>Укажите цвет фона: <input type="color" name="bg" value="#ff0000">
+        <input type="submit" value="Выбрать"></p>
+</form>
+</body>
+</html>
+
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Тег FORM</title>
+  </head>
+<body>
+<form action="handler.php">
+<p><b>Укажите</b></p>
+<p><input type="radio" name="answer" value="a1">Radio BUTTON<Br>
+<input type="radio" name="answer" value="a2">Radio BUTTON<Br>
+<input type="radio" name="answer" value="a3">Radio BUTTON</p>
+        <p><input type="submit"></p>
+</form>
+</body>
+</html>
+
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Текстовое поле</title>
+  </head>
+<body>
+<form action="handler.php">
+<p><b>Введите текст:</b></p>
+<p><textarea name="comment"></textarea></p>
+        <p><input type="submit"></p>
+</form>
+</body>
+</html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Флажки</title>
+  </head>
+<body>
+<form action="handler.php">
+<p><b>Укажите дату</b></p>
+<p><input type="checkbox" name="a" value="2010">2010</p>
+<p><input type="checkbox" name="a" value="2014">2014</p>
+<p><input type="checkbox" name="a" value="2017">2017</p>
+<p><input type="checkbox" name="a" value="2019">2019</p>
+
+        <p><input type="submit" value="Отправить"></p>
+</form>
+</body>
+</html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Загрузка файла</title>
+  </head>
+  <body>
+  <form enctype="multipart/form-data" method="post">
+  <p>Загрузите фотографии</p>
+<p><input type="file" name="photo" multiple accept="image/*,image/jpeg">
+<input type="submit" value="Отправить"></p>
+</form>  
+  </body>
+</html>
+
+
+
+
+
+
+
+
