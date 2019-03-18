@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9a55b5e-8971-4a86-bb59-8cf9105f2243" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/itoxygen.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pages CSS/Table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pages html/content.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages html/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages html/form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages html/frame 2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages html/frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages html/frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages html/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages html/menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework/Pages CSS/Sprite.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Pages html/FlexFloaTables.html" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/Pages CSS/FlexFloaTables.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Pages html/justable.html" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/Pages CSS/justable.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,18 +16,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Pages CSS/Table.html">
+        <entry file="file://$PROJECT_DIR$/Homework/Pages CSS/Sprite.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-              <folding>
-                <element signature="n#style#0;n#thead#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#tfoot#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#0;n#tr#0;n#tfoot#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -59,17 +43,17 @@
         <option value="$PROJECT_DIR$/Pages html/menu.html" />
         <option value="$PROJECT_DIR$/Pages html/form.html" />
         <option value="$PROJECT_DIR$/Pages CSS/Table.html" />
+        <option value="$PROJECT_DIR$/Homework/Pages CSS/Sprite.html" />
       </list>
     </option>
   </component>
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="228" />
-    <option name="y" value="140" />
-    <option name="width" value="1026" />
-    <option name="height" value="546" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="683" />
+    <option name="width" value="683" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -86,6 +70,18 @@
             <path>
               <item name="itoxygen" type="b2602c69:ProjectViewProjectNode" />
               <item name="itoxygen" type="462c0819:PsiDirectoryNode" />
+              <item name="Homework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itoxygen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itoxygen" type="462c0819:PsiDirectoryNode" />
+              <item name="Homework" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itoxygen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itoxygen" type="462c0819:PsiDirectoryNode" />
+              <item name="Homework" type="462c0819:PsiDirectoryNode" />
               <item name="Pages CSS" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -102,6 +98,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Домашний\Desktop\itoxygen\Homework\Pages CSS" />
+      <recent name="C:\Users\Домашний\Desktop\itoxygen\Progect" />
       <recent name="C:\Users\Домашний\Desktop\itoxygen" />
     </key>
   </component>
@@ -130,14 +128,15 @@
       <workItem from="1551464463593" duration="860000" />
       <workItem from="1552581734330" duration="628000" />
       <workItem from="1552755533495" duration="788000" />
+      <workItem from="1552933666238" duration="3599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2276000" />
+    <option name="totallyTimeSpent" value="5875000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="683" y="0" width="683" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -152,13 +151,13 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32843137" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.15436241" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="4" visible="true" weight="0.25718608" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="4" visible="true" weight="0.26484752" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +212,13 @@
             <element signature="n#style#0;n#tfoot#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#0;n#tr#0;n#tfoot#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homework/Pages CSS/Sprite.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
         </state>
       </provider>
     </entry>
