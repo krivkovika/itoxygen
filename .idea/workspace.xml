@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9a55b5e-8971-4a86-bb59-8cf9105f2243" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Homework/Pages CSS/Sprite.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework/Pages html/FlexFloaTables.html" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/Pages CSS/FlexFloaTables.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework/Pages html/justable.html" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/Pages CSS/justable.html" afterDir="false" />
-    </list>
+    <list default="true" id="a9a55b5e-8971-4a86-bb59-8cf9105f2243" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +45,7 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="683" />
     <option name="width" value="683" />
     <option name="height" value="728" />
@@ -128,16 +123,15 @@
       <workItem from="1551464463593" duration="860000" />
       <workItem from="1552581734330" duration="628000" />
       <workItem from="1552755533495" duration="788000" />
-      <workItem from="1552933666238" duration="3599000" />
+      <workItem from="1552933666238" duration="3808000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5875000" />
+    <option name="totallyTimeSpent" value="6084000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="683" y="0" width="683" height="728" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -151,13 +145,13 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.15436241" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.80369127" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="4" visible="true" weight="0.26484752" />
+      <window_info anchor="right" content_ui="combo" id="Project" order="4" visible="true" weight="0.26484752" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
