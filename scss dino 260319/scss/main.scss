@@ -1,0 +1,23 @@
+$charset: "UTF-8";
+$color: grey;
+
+header {
+  width: 100%;
+  background-color: $color;
+}
+
+td, th {
+  border: 1px solid $color;
+  text-align: left;
+  padding: 8px;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+  background-color: $color;
+}
+img {
+  align: center;
+  float: left;
+}

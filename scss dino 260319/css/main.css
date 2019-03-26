@@ -1,0 +1,17 @@
+header {
+  width: 100%;
+  background-color: grey; }
+
+td, th {
+  border: 1px solid grey;
+  text-align: left;
+  padding: 8px;
+  font-family: arial, sans-serif;
+  border-collapse: collapse; }
+
+tr:nth-child(even) {
+  background-color: grey; }
+
+img {
+  align: center;
+  float: left; }
