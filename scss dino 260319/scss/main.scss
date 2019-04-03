@@ -5,7 +5,9 @@ header {
   width: 100%;
   background-color: $color;
 }
-
+div {
+  display: flex;
+}
 td, th {
   border: 1px solid $color;
   text-align: left;
