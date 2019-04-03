@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Transform</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        /*@font-face {
+            font-family: 'Segoe UI';
+            src: url('/surface/Assets/css/fonts/all/normal/segoeui.eot');
+            src: url('/surface/Assets/css/fonts/all/normal/segoeui.eot?#iefix') format('embedded-opentype'),
+                 url('/surface/Assets/css/fonts/all/normal/segoeui.woff') format('woff'),
+                 url('/surface/Assets/css/fonts/all/normal/segoeui.svg#SegoeUI') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }*/
+
+        @media (min-width: 576px){
+            .grid-container {
+                max-width: 540px;
+            }
+        }
+        @media (min-width: 768px){
+            .grid-container {
+                max-width: 720px;
+            }
+        }
+        @media (min-width: 992px){
+            .grid-container {
+                max-width: 960px;
+            }
+        }
+        @media (min-width: 1200px){
+            .grid-container {
+                max-width: 1140px;
+            }
+        }
+
+
+        .box-monocolor {
+            width: 500px;
+            height: 144px;
+            /*background: grey;*/
+            position: relative;
+            text-align: center;
+            font-size: 100px;
+            font-weight: 900;
+            font-family: sans-serif;
+            color: #00aef0;
+        }
+
+        .box-color-animation {
+            background: linear-gradient(to right, #ffffff00 0%, #ffffff00 40%, #ffffff80 50%, #ffffff00 60%, #ffffff00 100%);
+            transition: background 1s cubic-bezier(0.21, 0.4, 0.88, 0.68);
+            background-size:1080px 144px;
+            width: 500px;
+            height: 144px;
+            position: absolute;
+            top: 0;
+            /*background-size:400px 400px;*/
+            /*background: yellow;*/
+            /*background: linear-gradient(to right, rgba(125,126,125,1) 10%,rgba(14,14,14,1) 50%,rgba(125,126,125,1) 90%);*/
+        }
+        .box-color-animation:hover {
+            /*background: linear-gradient(to right, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%,rgba(125,126,125,1) 100%);*/
+            background-position: -580px;
+            /*background: red;*/
+        }
+
+        hr {
+            margin-top: 40px;
+            margin-bottom: 15px;
+        }
+
+        .wrap {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .win-logo {
+            display: flex;
+
+        }
+
+
+        #DemoGradient{
+            /*    background: -webkit-linear-gradient(#C7D3DC,#5B798E);
+                background: -moz-linear-gradient(#C7D3DC,#5B798E);
+                background: -o-linear-gradient(#C7D3DC,#5B798E);*/
+            background: linear-gradient(to right, red 0%, #5B798E 40%, #5B798E 60%, red 100%);
+
+            /*    -webkit-transition: background 1s ease-out;
+                -moz-transition: background 1s ease-out;
+                -o-transition: background 1s ease-out;*/
+            transition: background 1s ease-out;
+
+            background-size:20px 100px;
+            border-radius: 10px;
+            border: 1px solid #839DB0;
+            cursor:pointer;
+            width: 150px;
+            height: 100px;
+        }
+        #DemoGradient:Hover{
+            /*background-position: 100px;*/
+        }
+
+        .logo {
+            width: 200px;
+            height: 140px;
+        }
+
+        .square {
+            width: 50%;
+            height:50%;
+            background:  #00aef0;
+            transition:transform 1.4s;
+
+        }
+
+        .logo:hover .lt {
+            transform: perspective(100px) rotateY(-15deg) scale(.745) translateX(26px);
+            transform-origin: bottom right;
+        }
+        .logo:hover .rt {
+            transform:perspective(100px) rotateY(-15deg);
+            transform-origin: bottom right;
+        }
+
+        .logo:hover .rt:hover {
+            transform:perspective(150px) rotateY(-15deg) rotateX(45deg) translateZ(15px);
+        }
+
+        .logo:hover .lb {
+            transform: perspective(100px) rotateY(-15deg) scale(.745) translateX(26px) translateY(4px);
+            transform-origin: top right;
+        }
+
+        .logo:hover .rb {
+            transform:perspective(100px) rotateY(-15deg) translateY(4px);
+            transform-origin: top right;
+        }
+
+        .lt {
+            transform: perspective(100px) rotateY(-15deg) scale(1) translateX(14px) translateZ(-25px);
+            transform-origin: bottom right;
+        }
+        .rt {
+            transform:perspective(130px) rotateY(-15deg);
+            transform-origin: bottom right;
+        }
+        .lb {
+            transform: perspective(100px) rotateY(-15deg) scale(1) translateY(4px) translateX(14px) translateZ(-25px);
+            transform-origin: top right;
+        }
+
+        .rb {
+            transform:perspective(130px) rotateY(-15deg) translateY(4px);
+            transform-origin: top right;
+        }
+
+
+        .box-logo {
+            width: 200px;
+            height: 140px;
+
+            transform: perspective(130px) rotateY(-15deg);
+            transform-origin: right center;
+            transition: transform 2s;
+        }
+        .box-logo .window {
+            width: 50%;
+            height:50%;
+            background:  #00aef0;
+            transition:transform 1.4s;
+            border: 2px solid white;
+        }
+
+        .box-logo:hover {
+            /*transform: perspective(130px) rotateY(-15deg) rotateX(-45deg);*/
+            /*transform: perspective(130px) rotateY(-15deg) rotateY(-45deg);*/
+            /*transform: perspective(130px) rotateY(-15deg) rotateZ(-90deg);*/
+        }
+
+        .box-logo:hover .window:hover {
+            transform: perspective(130px) translateZ(-20px);
+            transform-origin: center center;
+            transition: transform 1s;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="win-logo">
+        <!-- <hr> -->
+        <div class="wrap logo">
+            <div class="square lt">
+
+            </div>
+            <div class="square rt">
+
+            </div>
+            <div class="square lb">
+
+            </div>
+            <div class="square rb">
+
+            </div>
+        </div>
+        <div class="box-monocolor wrap">
+            <div>Windows</div>
+            <div class="box-color-animation">
+
+            </div>
+
+        </div>
+    </div>
+
+    <hr>
+    <h1 class="text-center">Анимация целого блока</h1>
+    <div class="win-logo">
+        <!-- <hr> -->
+        <div class="wrap box-logo">
+            <div class="window">
+
+            </div>
+            <div class="window">
+
+            </div>
+            <div class="window">
+
+            </div>
+            <div class="window">
+
+            </div>
+        </div>
+        <div class="box-monocolor wrap">
+            <div>Windows</div>
+            <div class="box-color-animation">
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- <div id="DemoGradient"></div> -->
+</div>
+</body>
+</html>
